@@ -1,0 +1,100 @@
+/* Ensure the slider container positions the dots at the bottom */
+.slider-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+/* Slick slider adjustments */
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  /* margin-top: -200px; */
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%; 
+  transition: transform 1s ease-out;
+}
+
+.zoom-effect {
+  position: relative;
+  overflow: hidden; 
+}
+
+.zoom-effect .slider-image {
+  transform: scale(1.1); 
+}
+
+.zoom-effect.zoomed .slider-image {
+  transform: scale(1); 
+}
+
+/* Dots customization */
+.slick-dots {
+  position: absolute;
+  bottom: 20px; /* Adjust this value to position the dots as needed */
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+  background: #000; /* Change this color to match your design */
+}
+
+
+
+
+
+/* Centering the bottom content */
+.mainbottomcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.bottomcontent {
+  width: 45%;
+  letter-spacing: 0.05em; 
+}
+
+#bottorcon {
+  letter-spacing: 0.1em; /* Adjust this value as needed */
+  /* font-size: 30px; */
+}
+
+.bottomcontent p {
+  letter-spacing: 0.06em; /* Adjust this value as needed */
+}

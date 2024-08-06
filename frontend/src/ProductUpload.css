@@ -1,0 +1,44 @@
+.product-upload-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.product-upload-form div {
+  margin-bottom: 15px;
+}
+
+.product-upload-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.product-upload-form input,
+.product-upload-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-upload-form button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-upload-form button:hover {
+  background-color: #218838;
+}
+
+.image-preview {
+  margin-top: 10px;
+}
